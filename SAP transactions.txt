@@ -1,0 +1,21 @@
+VL09 - cancellation of ID
+XD02 - customer data
+vf02 - billing docs check
+Z_SPI_US_DELIV - inbound to outbound deliveries link
+ME2M - transport orders track (utpd/2000/ALV/we101/uftz)
+CO06 - change schedule lines
+MD04 - timeline for Dom USA
+Z_SPI_US_DELIV - inbound deliveries for US arrivals
+z_cust_list - customers data
+vcust -  - customers data
+zallprices - V/zbpr/992  sap viewer /price_table
+ZPLANFUL_EXP_DEPL - Export Actual Depletions to Planful (Attention - do not download on server UNFLAG!!!)
+ZDEPL - Actual Depletions to Planful
+zdelays - days of delay of OD between planned B\L and transp BOL
+ZSDINVLIST - report to YVS
+zcompare_9l
+Z_MM_INV_2 - LB invoices SPI - for COGS per SKU
+SQVI - Payment Terms by customer
+
+
+Excel Filepath    =LEFT(@CELL("filename";A2);FIND("[";@CELL("filename";A2);1)-1)
